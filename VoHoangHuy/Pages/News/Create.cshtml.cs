@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using VoHoangHuy.Models;
 
 namespace VoHoangHuy.Pages_News
@@ -29,7 +30,7 @@ namespace VoHoangHuy.Pages_News
 
         [BindProperty]
         public Category Category { get; set; }
-        
+
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
@@ -39,10 +40,12 @@ namespace VoHoangHuy.Pages_News
                 return Page();
             }
 
+            News.Cate=Category;
+
             _context.News.Add(News);
-            await _context.SaveChangesAsync();
-             _context.Category.Add(Category);
-            await _context.SaveChangesAsync();
+
+            _context.Category.Add(Category);
+                       await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
         }

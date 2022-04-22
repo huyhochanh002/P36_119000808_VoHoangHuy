@@ -9,7 +9,7 @@ namespace VoHoangHuy.Models
         [Required]
         public String Author { get; set; }
         [Required]
-        public String Content { get; set; }
+        public String? Content { get; set; }
         public DateTime CreatedAt { get; set; }
 
 
