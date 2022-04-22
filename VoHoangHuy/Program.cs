@@ -5,15 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Services.AddDbContext<CommentContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("CommentContext") ?? throw new InvalidOperationException("Connection string 'CommentContext' not found.")));
-
-builder.Services.AddDbContext<NewsContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("NewsContext") ?? throw new InvalidOperationException("Connection string 'NewsContext' not found.")));
-
-builder.Services.AddDbContext<CategoryContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("CategoryContext") ?? throw new InvalidOperationException("Connection string 'CategoryContext' not found.")));
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
