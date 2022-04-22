@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace VoHoangHuy.Migrations
 {
     [DbContext(typeof(HuyDzContext))]
-    [Migration("20220422081906_PN")]
+    [Migration("20220422083433_PN")]
     partial class PN
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
