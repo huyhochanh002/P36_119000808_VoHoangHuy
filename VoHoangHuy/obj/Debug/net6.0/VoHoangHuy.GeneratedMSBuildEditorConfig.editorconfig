@@ -15,24 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\P36_119000808_VoHoangHuy\VoHoangHuy
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Categorys/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlzXENyZWF0ZS5jc2h0bWw=
+[D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Categorys/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlzXERlbGV0ZS5jc2h0bWw=
+[D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Categorys/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlzXERldGFpbHMuY3NodG1s
+[D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Categorys/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlzXEVkaXQuY3NodG1s
+[D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Categorys/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlzXEluZGV4LmNzaHRtbA==
+[D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/P36_119000808_VoHoangHuy/VoHoangHuy/Pages/Comment/Create.cshtml]

@@ -21,8 +21,8 @@ namespace VoHoangHuy.Models
         public String? Author { get; set; }
         public DateTime CreatedAt { get; set; }
     [ForeignKey("CateID")]
-    public Category? Cate { get; set; }
-    public ICollection<Comment>? comments { get; set;}
+    public Category ?Cate { get; set; }
+    public ICollection<Comment> ?comments { get; set;}
 
 
     }

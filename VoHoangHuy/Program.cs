@@ -5,6 +5,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+builder.Services.AddDbContext<HuyDzContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("HuyDzContext") ?? throw new InvalidOperationException("Connection string 'HuyDzContext' not found.")));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
